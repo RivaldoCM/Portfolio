@@ -6,22 +6,22 @@ export const Container = styled.div`
     background: linear-gradient(180deg, 
                 rgba(0,5,0,1) 0%, 
                 rgba(17,146,230,1) 100%); 
-    .intro{
+    .profile{
         width: 100%;
         height:80vh;
 
-        .content{
+        .profile__content{
             width: 50%;
             height: 80%;
             border-right: 1px solid #ffffff;
         }
 
-        .view{
+        .profile__about{
             flex-direction: column;
             width: 50%;
             height: 80%;
 
-            .photo{
+            .profile__image{
                 width: 13rem;
                 height: 13rem;
                 margin: 1rem;
@@ -29,13 +29,14 @@ export const Container = styled.div`
                 border: 2px solid #ffffff;
             }
 
-            .view-content{
+            .profile__info{
                 width: 80%;
                 height: 50%;
                 border: 1px solid #ffffff;
             }
         }
     }
+    
     .intro2{
         width: 100%;
         height:80vh;
@@ -50,14 +51,4 @@ export const Container = styled.div`
         width: 100%;
         height:80vh;
     }
-    .intro5{
-        width: 100%;
-        height: 40vh;
-        
-        
-    }
-
-
-    
-
 `
